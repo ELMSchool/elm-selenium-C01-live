@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>school.elm</groupId>
+	<artifactId>elm-selenium-C01-practice</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>SeleniumMavenPractice</name>
+	<description>This project is for live sessions</description>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+
+	</dependencies>
+</project>
