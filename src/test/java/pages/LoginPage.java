@@ -13,12 +13,14 @@ public class LoginPage {
 	@FindBy(id="userName")
 	WebElement userNameInputBox;
 	
-	
 	@FindBy(id="password")
 	WebElement passwordInputBox;
 	
-	@FindBy(id = "login")
+	@FindBy(id="login")
 	WebElement loginButton;
+	
+	@FindBy(id="newUser")
+	WebElement newUserButton;
 	
 	public void login(String userName, String password) {
 		
